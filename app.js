@@ -33,9 +33,11 @@ function changeColor() {
   const body = document.querySelector('body');
   body.style.backgroundColor = `rgb(${change},${change1},${change2})`;
 
-  console.log(change);
-  console.log(change1);
-  console.log(change2);
+  // console.log(change);
+  // console.log(change1);
+  // console.log(change2);
 }
 // CALLED FUNCTION
-changeColor();
+// changeColor();
+
+setInterval(changeColor, 1500);
